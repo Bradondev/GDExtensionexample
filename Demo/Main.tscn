@@ -5,5 +5,9 @@
 [node name="Main" type="Node2D"]
 
 [node name="GDExample" type="GDExample" parent="."]
-position = Vector2(19.6913, 12.0442)
+position = Vector2(2.49099, 19.8902)
 texture = ExtResource("1_fbca2")
+
+[node name="ButttonBaseTest" type="ButttonBaseTest" parent="."]
+offset_right = 136.0
+offset_bottom = 42.0
