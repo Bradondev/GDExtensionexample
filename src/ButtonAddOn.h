@@ -1,6 +1,7 @@
 #ifndef BUTTONBASETEST_H
 #define BUTTONBASETEST_H
 
+
 #include <godot_cpp/classes/button.hpp>
 
 namespace godot {
@@ -16,7 +17,9 @@ protected:
 public:
 	ButttonBaseTest();//constructor
 	~ButttonBaseTest();
-	
+
+	void _pressed() override;
+	void _ready();
 	void BaseTest(String words);
 	
 	void _process(double delta) override;

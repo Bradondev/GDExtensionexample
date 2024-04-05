@@ -1,13 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bthomogljg6lq"]
-
-[ext_resource type="Texture2D" uid="uid://bq0qm1d230f78" path="res://icon.svg" id="1_fbca2"]
+[gd_scene format=3 uid="uid://bthomogljg6lq"]
 
 [node name="Main" type="Node2D"]
 
-[node name="GDExample" type="GDExample" parent="."]
-position = Vector2(2.49099, 19.8902)
-texture = ExtResource("1_fbca2")
-
 [node name="ButttonBaseTest" type="ButttonBaseTest" parent="."]
-offset_right = 136.0
-offset_bottom = 42.0
+offset_left = 91.0
+offset_top = 38.0
+offset_right = 227.0
+offset_bottom = 80.0
+text = "dadad"
