@@ -8,6 +8,8 @@
 #include <godot_cpp/core/error_macros.hpp>
 #include <godot_cpp/classes/button_group.hpp>
 #include <godot_cpp/classes/shortcut.hpp>
+#include <godot_cpp/classes/scene_tree.hpp>
+#include <godot_cpp/classes/tree.hpp>
 using namespace godot;
 
 
@@ -42,15 +44,17 @@ void ButttonBaseTest::_process(double delta) {
 	//UtilityFunctions::print("hello this is process");
 
 }
-void ButttonBaseTest::_pressed(){
-	UtilityFunctions::print("button was pressed");
-	
-}
 
 void ButttonBaseTest::_ready(){
 	UtilityFunctions::print("oN READY ");
 }
 void  ButttonBaseTest::BaseTest(String words){
 	UtilityFunctions::print("hello world" + words);
-	emit_signal("hello_world_singal","data");
+	
+	
+
+}
+void ButttonBaseTest::_pressed(){
+	UtilityFunctions::print(get_global_position());
+	get_tree()->quit();
 }

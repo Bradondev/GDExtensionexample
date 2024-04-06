@@ -3,8 +3,12 @@
 [node name="Main" type="Node2D"]
 
 [node name="ButttonBaseTest" type="ButttonBaseTest" parent="."]
-offset_left = 91.0
-offset_top = 38.0
-offset_right = 227.0
-offset_bottom = 80.0
-text = "dadad"
+offset_right = 99.0
+offset_bottom = 46.0
+
+[node name="ChangeScene" type="ChangeScene" parent="."]
+Path = "res://secen2.tscn"
+offset_left = -3.0
+offset_top = 66.0
+offset_right = 97.0
+offset_bottom = 101.0

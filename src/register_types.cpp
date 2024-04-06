@@ -2,6 +2,7 @@
 
 #include "gdexample.h"
 #include "ButtonAddOn.h"
+#include "ChangeScene.h"
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
 #include <godot_cpp/godot.hpp>
@@ -14,8 +15,9 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	}
 
 	ClassDB::register_class<GDExample>();
-	
+	ClassDB::register_class<ChangeScene>();
 	ClassDB::register_class<ButttonBaseTest>();
+	
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {
