@@ -5,6 +5,7 @@
 [node name="ButttonBaseTest" type="ButttonBaseTest" parent="."]
 offset_right = 99.0
 offset_bottom = 46.0
+text = "exit"
 
 [node name="ChangeScene" type="ChangeScene" parent="."]
 Path = "res://secen2.tscn"
@@ -12,3 +13,4 @@ offset_left = -3.0
 offset_top = 66.0
 offset_right = 97.0
 offset_bottom = 101.0
+text = "change scene"

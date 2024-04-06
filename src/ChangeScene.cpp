@@ -14,6 +14,7 @@ using namespace godot;
 
 
  ChangeScene::ChangeScene() {
+	set_text("Change Scene");
 	// Initialize any variables here.
 	//if(Engine::get_singleton()-> is_editor_hint()){
 	//	set_process_mode(Node::ProcessMode::PROCESS_MODE_DISABLED);
@@ -68,6 +69,7 @@ void ChangeScene::Set_Path(String s){
 void ChangeScene::_pressed(){
 	UtilityFunctions::print(Path);
     SceneTree tree;
+	
 	get_tree()->change_scene_to_file(Path);
 
 	//get_tree()->quit();

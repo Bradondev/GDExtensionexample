@@ -14,6 +14,7 @@ using namespace godot;
 
 
  ButttonBaseTest::ButttonBaseTest() {
+	set_text("Exit");
 	// Initialize any variables here.
 	//if(Engine::get_singleton()-> is_editor_hint()){
 	//	set_process_mode(Node::ProcessMode::PROCESS_MODE_DISABLED);

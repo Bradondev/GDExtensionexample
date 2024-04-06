@@ -12,3 +12,8 @@ texture = ExtResource("1_q1lvt")
 Path = "res://Main.tscn"
 offset_right = 548.0
 offset_bottom = 158.0
+
+[node name="ChangeScene2" type="ChangeScene" parent="."]
+offset_top = 262.0
+offset_right = 271.0
+offset_bottom = 324.0
